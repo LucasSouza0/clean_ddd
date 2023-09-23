@@ -6,7 +6,8 @@
   "rules": {
     "no-useless-constructor": "off",
     "no-empty-function": "off",
-    "no-empty": "off"
+    "no-empty": "off",
+    "prettier/prettier": ["error", { "endOfLine": "off" }]
   },
   "env": {
     "vitest-globals/env": true
